@@ -141,6 +141,10 @@ ul {
 	margin-left: 5px;
 }
 
+.menu-list li {
+	position: relative;
+}
+
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -183,6 +187,23 @@ ul {
 
 .nav-bar .line-2 {
 	margin: 4px 0;
+}
+
+.search-box:hover > .search-txt {
+	width: 150px;
+	transition: all .2s;
+}
+
+.search-box {
+	border-radius: 40px;
+}
+
+.search-txt {
+	border: none;
+	background-color: white;
+	outline: none;
+	width: 0;
+	border-bottom: 1px solid #474846;
 }
 
 #topbtn {
@@ -649,7 +670,7 @@ ul {
 	background-color: #F7F7F7;
 	position: relative;
 	width: 57rem;
-	margin: 2rem;
+	margin-top: 6rem;
 }
 
 .menu-popup .modal span {
@@ -660,22 +681,7 @@ ul {
 	font-size: 35px;
 }
 
-.search-box:hover>.search-txt {
-	width: 150px;
-	transition: all .2s;
-}
 
-.search-box {
-	border-radius: 40px;
-}
-
-.search-txt {
-	border: none;
-	background-color: white;
-	outline: none;
-	width: 0;
-	border-bottom: 1px solid #474846;
-}
 
 @media only screen and (max-width:1199px) {
 
